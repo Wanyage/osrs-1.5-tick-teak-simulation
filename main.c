@@ -32,9 +32,8 @@ int main()
     srand(time(NULL));
 
     int time = 0, fintime, pos = 1, logs = 0, t1depl = -100, t2depl = -100, t3depl = -100;
-    //printf("Simulate 1.5 tick teak for how many ticks?\n");
-    //scanf("%i", &fintime);
-    fintime = 6000000;
+    printf("Simulate 1.5 tick teak for how many ticks?\n");
+    scanf("%i", &fintime);
 
     while(time < fintime){
         if(pos == 1){
